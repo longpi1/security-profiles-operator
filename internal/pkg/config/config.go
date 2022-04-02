@@ -39,7 +39,7 @@ const (
 	SPOdNameEnvKey = "SPOD_NAME"
 
 	// OperatorRoot is the root directory of the operator.
-	OperatorRoot = "/var/lib/security-profiles-operator"
+	OperatorRoot = "/var/lib/kubelet/security-profiles-operator"
 
 	// UserRootless is the user which runs the operator.
 	UserRootless = 65535
